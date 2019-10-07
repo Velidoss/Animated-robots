@@ -7,3 +7,7 @@
 header{
     background-color: aquamarine;
 }
+
+ul li{
+    display: inline-block;
+}
