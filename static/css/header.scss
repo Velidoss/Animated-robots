@@ -89,3 +89,31 @@ header{
         @include fontOpSans(14px, #ffffff);
     }
 }
+
+.map-contact{
+    form{
+
+        background:white;
+        p{
+            @include fontOpSans(30px, #000000);
+            font-weight: 200;
+        }
+        padding:25px 40px;
+        border:3px solid #1dc896;
+        border-radius:25px;
+        .form-group{
+            line-height:30px;
+            margin-bottom:15px;
+        }
+        textarea{
+            width:100%;
+            border: 1px solid grey;
+            border-radius: 5px;
+            margin-bottom:20px;
+        }
+    }
+    .btn{
+        background:#1dc896;
+        color:#ffffff;
+    }
+}

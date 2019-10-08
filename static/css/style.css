@@ -109,4 +109,35 @@ header .social .btn-default {
   font-size: 14px;
   color: #ffffff;
 }
+
+.map-contact form {
+  background: white;
+  padding: 25px 40px;
+  border: 3px solid #1dc896;
+  border-radius: 25px;
+}
+
+.map-contact form p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  color: #000000;
+  font-weight: 200;
+}
+
+.map-contact form .form-group {
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+.map-contact form textarea {
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.map-contact .btn {
+  background: #1dc896;
+  color: #ffffff;
+}
 /*# sourceMappingURL=style.css.map */
