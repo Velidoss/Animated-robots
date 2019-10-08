@@ -1,0 +1,91 @@
+@import "./variables.scss";
+
+header{
+    .section-s1{
+        background-color: #32a08c;
+        padding-bottom:30px;
+    }
+    .menu{
+        background:white;
+    }
+    span{
+        color:#48907a;
+        font-size:36px;
+        font-weight:200;
+    }   
+    h1{
+        font-family: $logofont;
+        font-size:44px;
+        color:#48907a;
+        margin-top:-20px;
+    }
+    ul{
+        padding:0 0 30px 0;
+        li{
+            display: block;
+            margin-top:15px;
+            a{
+                font-size:16px;
+                color: #7a7a7a;
+            }
+        }
+    }
+    .social{
+        margin-top:70px;
+        span{
+            color:#dfe9e8;
+            font-size:92px;
+        }
+        .description{
+            margin-top:40px;
+            font-size:22px;
+            color:#f5f9f8;
+            font-weight:200;
+        }
+        
+        .btn-default{
+            margin-top:65px;
+            background:none;
+            color:white;
+            border: 2px solid white;
+        }
+        
+    }
+}
+
+.logo-partners{
+    background-color:#f4f4f4;
+    .row{
+        line-height: 125px;
+
+    }
+}
+
+.thank{
+    padding-top:70px;
+    h2{
+        @include fontOpSans(30px, #797979);
+    }
+    p{
+        padding-top:45px;
+        @include fontOpSans(14px, #797979);
+    }
+    .btn{
+        margin-top:45px;
+        margin-bottom:50px;
+        @include fontOpSans(24px, #ffffff);
+    }
+}
+
+.about-us{
+    background: #1dc896;
+    padding:65px 0;
+    
+    h2{
+        @include fontOpSans(24px, #ffffff);
+        padding-bottom:20px;
+    }
+    p{
+        @include fontOpSans(14px, #ffffff);
+    }
+}
