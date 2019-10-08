@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Asap:500|Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+header .section-s1 {
+  background-color: #32a08c;
+  padding-bottom: 30px;
+}
+
+header .menu {
+  background: white;
+}
+
+header span {
+  color: #48907a;
+  font-size: 36px;
+  font-weight: 200;
+}
+
+header h1 {
+  font-family: "Lobster", sans-serif;
+  font-size: 44px;
+  color: #48907a;
+  margin-top: -20px;
+}
+
+header ul {
+  padding: 0 0 30px 0;
+}
+
+header ul li {
+  display: block;
+  margin-top: 15px;
+}
+
+header ul li a {
+  font-size: 16px;
+  color: #7a7a7a;
+}
+
+header .social {
+  margin-top: 70px;
+}
+
+header .social span {
+  color: #dfe9e8;
+  font-size: 92px;
+}
+
+header .social .description {
+  margin-top: 40px;
+  font-size: 22px;
+  color: #f5f9f8;
+  font-weight: 200;
+}
+
+header .social .btn-default {
+  margin-top: 65px;
+}
+/*# sourceMappingURL=style.css.map */
